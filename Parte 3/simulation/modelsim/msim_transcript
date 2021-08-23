@@ -1,0 +1,67 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do parte3_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 3 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/ram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 3 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/parte3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cacheL1
+# -- Compiling module parte3
+# 
+# Top level modules:
+# 	parte3
+# 
+vsim +altera -L altera_mf_ver -do parte3_run_msim_rtl_verilog.do -l msim_transcript -gui work.parte3
+# vsim +altera -L altera_mf_ver -do parte3_run_msim_rtl_verilog.do -l msim_transcript -gui work.parte3 
+# Loading work.parte3
+# Loading work.cacheL1
+# Loading work.ram
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# do parte3_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 3 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/ram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 3 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/parte3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cacheL1
+# -- Compiling module parte3
+# 
+# Top level modules:
+# 	parte3
+# 
+do {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/simulation/modelsim/wave.do}
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

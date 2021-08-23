@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\erick\Downloads\PROJETO 1-20210823T130439Z-001\PROJETO 1\Parte 3\simulation\modelsim
+vcacheL1
+!i10b 1
+!s100 0H@0H3Z1AM]gnYO0C<AI30
+IMV71^6:]aM_WXmT36AN9J2
+V;dY<ZGHVUjP<C1k3M]eln2
+Z1 dC:\Users\erick\Downloads\PROJETO 1-20210823T130439Z-001\PROJETO 1\Parte 3\simulation\modelsim
+Z2 w1623941486
+Z3 8C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/parte3.v
+Z4 FC:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/parte3.v
+L0 8
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1629724768.315000
+Z7 !s107 C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/parte3.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3|C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/parte3.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work {+incdir+C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3} -O0
+ncache@l1
+vparte3
+!i10b 1
+!s100 nYXSoSZoQ0:Xob0nd8Uhz0
+ITgQIQVLE6afCjJNdeL]f_3
+VQS2chMWO4N6[MmYM3C0Zj2
+R1
+R2
+R3
+R4
+L0 291
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+vram
+IV>^bXC6IdN7L69814J^cY1
+Vo[o<RjK3h[SB=:8Dn05[I2
+R1
+w1623156350
+8C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/ram.v
+FC:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/ram.v
+L0 39
+R5
+r1
+31
+R9
+!i10b 1
+!s100 cg2_i<2_b[U;PNDRie91h0
+!s85 0
+!s108 1629724768.280000
+!s107 C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3|C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 3/ram.v|
+!s101 -O0
+R10

@@ -1,0 +1,68 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ramlpm_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 2 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 2/ramlpm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ramlpm
+# 
+# Top level modules:
+# 	ramlpm
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 2 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 2/parte2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module parte2
+# 
+# Top level modules:
+# 	parte2
+# 
+vsim +altera -L altera_mf_ver -do ramlpm_run_msim_rtl_verilog.do -l msim_transcript -gui work.parte2
+# vsim +altera -L altera_mf_ver -do ramlpm_run_msim_rtl_verilog.do -l msim_transcript -gui work.parte2 
+# Loading work.parte2
+# Loading work.ramlpm
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# do ramlpm_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 2 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 2/ramlpm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ramlpm
+# 
+# Top level modules:
+# 	ramlpm
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 2 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 2/parte2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module parte2
+# 
+# Top level modules:
+# 	parte2
+# 
+do {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 2/simulation/modelsim/wave.do}
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+# 1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

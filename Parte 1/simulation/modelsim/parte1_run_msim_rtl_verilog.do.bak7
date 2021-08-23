@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/LAOC2/projeto\ 1/PARTE1 {C:/Users/erick/Downloads/LAOC2/projeto 1/PARTE1/MEMRAM.v}
+vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/LAOC2/projeto\ 1/PARTE1 {C:/Users/erick/Downloads/LAOC2/projeto 1/PARTE1/parte1.v}
+

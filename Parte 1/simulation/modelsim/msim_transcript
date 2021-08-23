@@ -1,0 +1,80 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do parte1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 1 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 1/parte1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module parte1
+# 
+# Top level modules:
+# 	parte1
+# vlog -vlog01compat -work work +incdir+C:/Users/erick/Downloads/PROJETO\ 1-20210823T130439Z-001/PROJETO\ 1/Parte\ 1 {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 1/Ram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Ram
+# 
+# Top level modules:
+# 	Ram
+# 
+vsim work.parte1
+# vsim work.parte1 
+# Loading work.parte1
+# Loading work.Ram
+# ** Error: (vsim-3033) C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 1/Ram.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /parte1/MemoriaRam
+#         Searched libraries:
+#             C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 1/simulation/modelsim/rtl_work
+# Error loading design
+vsim -L altera_mf_ver work.parte1
+# vsim -L altera_mf_ver work.parte1 
+# Loading work.parte1
+# Loading work.Ram
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+do {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 1/simulation/modelsim/wave.do}
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+force -freeze sim:/parte1/wren 1 0
+run
+force -freeze sim:/parte1/wren 1 0
+run
+noforce sim:/parte1/wren
+force -freeze sim:/parte1/wren 0 0
+run
+run
+run
+run
+run
+run
+run
+do {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 1/simulation/modelsim/wave.do}
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+restart -f
+do {C:/Users/erick/Downloads/PROJETO 1-20210823T130439Z-001/PROJETO 1/Parte 1/simulation/modelsim/wave.do}
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+force -freeze sim:/parte1/wren 1 0
+run
+force -freeze sim:/parte1/wren 1 0
+run

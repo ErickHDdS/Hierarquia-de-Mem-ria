@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/LAOC2/Pratica\ 1/Parte\ 2/Parte\ 2 {C:/LAOC2/Pratica 1/Parte 2/Parte 2/ramlpm.v}
+
